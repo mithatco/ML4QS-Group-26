@@ -1,0 +1,9 @@
+	Walking Heart Rate Average (count/min)
+count	676.0
+mean	112.96523668639053
+std	11.638628725522747
+min	79.0
+25%	106.0
+50%	112.0
+75%	120.0
+max	170.0

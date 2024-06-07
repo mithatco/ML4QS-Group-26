@@ -1,0 +1,9 @@
+	Environmental Audio Exposure (dBASPL)
+count	13919.0
+mean	69.57666714562829
+std	9.467444524589942
+min	33.33
+25%	64.685
+50%	69.89
+75%	75.16499999999999
+max	106.04

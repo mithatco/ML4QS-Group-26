@@ -1,0 +1,9 @@
+	Resting Heart Rate (count/min)
+count	714.0
+mean	71.20868347338936
+std	6.797811932686937
+min	47.0
+25%	67.0
+50%	71.0
+75%	75.0
+max	94.0
