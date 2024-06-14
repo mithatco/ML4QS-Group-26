@@ -5,15 +5,15 @@ import pandas as pd
 
 
 
-df = pd.read_csv('instances_final.csv', delimiter='\t')
+df = pd.read_csv('Processed Data/Instances Imputed.csv', delimiter='\t')
 
 
 #count the number of duplicate rows where all columns are the same (except for date)
 # duplicates = df[df.duplicated(subset=['Environmental Audio Exposure (dBASPL)', 'Blood Oxygen Saturation (%)', 'Walking Speed (km/hr)', 'Stress Level'], keep=False)]
-df = df.drop_duplicates(subset=['Environmental Audio Exposure (dBASPL)', 'Blood Oxygen Saturation (%)', 'Walking Speed (km/hr)', 'Stress Level'])
+# df = df.drop_duplicates(subset=['Environmental Audio Exposure (dBASPL)', 'Blood Oxygen Saturation (%)', 'Walking Speed (km/hr)', 'Stress Level'])
 # print(len(duplicates))
 
-X = df[['Environmental Audio Exposure (dBASPL)', 'Blood Oxygen Saturation (%)', 'Walking Speed (km/hr)']]
+X = df.drop(columns=['Stress Level', 'Date/Time'])
 
 y = df['Stress Level']
 
